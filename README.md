@@ -15,7 +15,7 @@ The floating Aerialith once held itself together through the Grand Chorus. When 
 
 ## Run and validate
 
-Open `Choruskeeper.xcodeproj` in Xcode and run the Choruskeeper scheme on an iPhone running iOS 17 or later.
+Open `Choruskeeper.xcodeproj` in Xcode and run the Choruskeeper scheme on an iPhone running iOS 17 or later. Do not open the repository folder or `Package.swift` as the Xcode workspace: that selects the `ChoruskeeperCore` library package, which has no publishable app product or App Store name.
 
 ```sh
 swift test
